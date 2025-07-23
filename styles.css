@@ -1,0 +1,60 @@
+.noto-sans-assign {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+
+*{
+    max-width: 1440px;
+    margin: auto;
+    background-color: aliceblue;
+}
+/* Common Styles */
+.dis-flex{
+    display: flex;
+}
+
+.para-color{
+    color: rgba(137, 135, 161, 1);
+}
+
+.org-color{
+    color:rgba(233, 90, 8, 1);
+}
+
+/* NavBar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    text-decoration: none;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 20px;
+    
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
