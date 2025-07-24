@@ -4,9 +4,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;}
-*{
-    background-color: aliceblue;
-}
+
   
     
 /* Common Styles */
@@ -188,22 +186,55 @@
 
 /* deal image section */
 
-.ana{
-    background-image: url(./Images/deal-ana.png);
+.bloom{
+    background:linear-gradient(rgba(0, 0, 0, 0.5)), url(./Images/deal-bloom.png);
     background-size: cover;
-    width: 600px;
-    height: 300px;
+    border-radius: 10px;
+    width: 400px;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
+    color: white;  }
+
+.ana{
+    background:linear-gradient(45deg, rgba(0, 0, 0, 0.5)), url(./Images/deal-ana.png);
+    background-size: cover;
+    width: 400px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    margin-top: 10px;
+    border-radius: 10px;
+      
 }
-.ana h3{
-    font-style: none;
-    background-color: none;
+
+.zabo{
+    background:linear-gradient(45deg, rgba(0, 0, 0, 0.5)), url(./Images/deal-zabo.png);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    border-radius: 10px;
 }
+
+.dealoff-container{
+    display: flex;
+    max-width: 1140px;
+    height: 450px;
+    margin: auto;
+    gap: 15px;
+}
+
+
 /* Responsive media query */
 @media screen and (max-width:576px) {
 
