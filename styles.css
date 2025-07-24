@@ -101,7 +101,7 @@
 }
 
 .plant-content{
-    margin-top: 120px;
+    margin-top: 100px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -132,20 +132,90 @@
     border-radius: 2px;
 }
 
+/* Flower Plants-container */
+
+.plants-container{
+    max-width: 1140px;
+    max-height: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    gap: 50px;
+    
+}
+
+.trust-bg{ 
+    max-width: 280px;
+    position: relative;
+    left: 350px;
+    top: -700px;
+    background: transparent;
+ 
+
+}
+
+.flower-banner h3 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.love-detailes{
+    color: rgba(137, 135, 161, 1);
+    font-size: 20px ;
+    padding-bottom: 20px;
+}
+
+.deals-container{
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.plant-title{
+    font-size: 50px;
+    margin:0%;
+    text-align: center;
+
+}
+
+.plant-details{
+    color: rgba(137, 135, 161, 1);
+    font-size: 20px ;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* deal image section */
+
+.ana{
+    background-image: url(./Images/deal-ana.png);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.ana h3{
+    font-style: none;
+    background-color: none;
+}
 /* Responsive media query */
 @media screen and (max-width:576px) {
 
   .nav-links{
     display: none;
-  }
+ }
   .always-container{
     flex-direction: column;
-  }
+ } 
   .always-banner:{
-    margin: auto;
-    
-  }
-
+    margin: auto;    
+ }
  .banner-title{
     font-size: 32px;
     line-height: normal;
@@ -153,32 +223,40 @@
 .hero-flow{
     order: -1;
     width: 100%;
-}
+ }
 .card-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
-}
-
+ }
 .cards{
      max-width: 190px;
      gap: 10px;
      font-size: 16px;
-     
-
-    }
+ }
 .flower-img{
     max-width: 100%;
-
-}
-
+ }
 .btn-cart{
     padding: 15px 40px;
     margin: auto;
 
-}
-
-
+ }
+.plants-container {
+   flex-direction: column;
+   margin-top: 50px;
+ }
+.flower-image{
+    max-width: 390px;
+    margin: auto;
+ }
+.trust-bg{
+    display: none;
+ }
+.flower-banner h3 {
+    margin: 0%;
+    font-size: 30px;
+ }
 
 
 }
