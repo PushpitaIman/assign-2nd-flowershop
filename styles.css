@@ -357,9 +357,11 @@
    flex-direction: column;
    margin-top: 50px;
  }
-.flower-image{
-    max-width: auto;
+.flower-img{
+    max-width: 185px;
     margin: auto;
+    margin-left: 5px;
+
  }
 .trust-bg{
     display: none;
