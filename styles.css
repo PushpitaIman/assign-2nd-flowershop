@@ -245,21 +245,19 @@
     background: url(./Images/news-letter-bg.png);
     background-size: cover;
     width: 100%;
-    height: 533px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white; 
-    border-radius: 10px;
     margin-top: 120px;
 
 }
 
 .colorful-sec h2{
     font-size: 50px;
-    gap: none;
-    
+    gap: none;    
 }
 
 .email{
@@ -277,10 +275,44 @@
     font-size: 16px;
     font-weight: 600;
     height: 52px;
-    
+
 }
 
+/* Footer section */
 
+.last-ft{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 80px;
+    color: rgba(137, 135, 161, 1);
+}
+
+.ft-logo{
+    width: 360px;
+    font-size: 20px;
+}
+.list-1{
+     margin-left: 50px;
+
+}
+
+.list-2{
+    margin-left: 90px;
+}
+.ft-contact{
+    display: flex;
+}
+.ft-list{
+    list-style: none;
+    line-height: 50px;
+}
+.icon-sec{
+    margin-left: 70px;
+}
+.icon-sec img{ 
+    margin-left: 25px;
+}
 
 /* Responsive media query */
 @media screen and (max-width:576px) {
@@ -300,7 +332,7 @@
  }
 .hero-flow{
     order: -1;
-    width: 100%;
+    width: 380px;
  }
 .card-container{
     display: grid;
@@ -312,8 +344,9 @@
      gap: 10px;
      font-size: 16px;
  }
-.flower-img{
-    max-width: 100%;
+.flower-image{
+    max-width: 380px;
+    padding-left: 10px;
  }
 .btn-cart{
     padding: 15px 40px;
@@ -348,12 +381,51 @@
 
 .bloom{
    height: 215px;
-   margin-bottom: 15px; 
+   margin-bottom: 10px; 
 }
 .zabo{
-    margin-top: 5px;
+    margin-top: 0;
     max-height: 215px;
+    
 }
+ .zabo h2{font-size: 24px; }  
+.colorful-sec{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    max-height: 280px;
+    width: 100%;
+}
+
+.colorful-sec h2{
+    font-size: 24px;   
+}
+   
+.email{ 
+    padding: 10px;
+    width: 150px;
+
+}
+.subscribe{
+    width: 100px;
+    padding: 10px;
+    height: 42px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
